@@ -20,7 +20,7 @@ This generator enables to create a **modern** project with this packages :
 
 1. Install [nodejs](https://nodejs.org/)
 
-2. Install G
+2. Install Gulp
 	
 	* 	`npm install -g gulp`
 		
