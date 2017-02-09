@@ -1,0 +1,11 @@
+// layouts/home.scss
+
+.home {
+
+	.page-content {
+		& > .container {
+        	padding:15px
+        }
+	}
+	
+}

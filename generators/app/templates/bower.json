@@ -1,0 +1,16 @@
+{
+    "name": "<%= projectName %>",
+    "version": "0.0.0",
+    "description": "<%= projectDescription %>",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "font-awesome": "fontawesome#~4.4.0",
+        "bootstrap-sass": "~3.3.5"
+    }
+}

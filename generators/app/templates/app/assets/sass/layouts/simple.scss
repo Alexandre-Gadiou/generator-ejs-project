@@ -1,0 +1,9 @@
+// layouts/simple.scss
+
+.simple {
+   .page-content {
+		& > .container {
+        	padding:15px
+        }
+	}
+}
