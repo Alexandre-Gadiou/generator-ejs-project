@@ -40,7 +40,7 @@ This generator enables to create a **modern** project with this packages :
 
 	* 	`cd generator-ejs-project`
 		
-	* 	`npm link`
+	* 	`npm install && npm link`
 		
 ## Usage	
 
