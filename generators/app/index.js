@@ -32,11 +32,6 @@ module.exports = generators.Base.extend({
       name: 'projectAuthorWebsite',
       message: 'Author website'
     },
-    {
-      type: 'input',
-      name: 'projectCodeID',
-      message: 'Project code (only for distribution)'
-    },
     ];
 
     this.prompt(prompts, function (props) {
@@ -51,7 +46,6 @@ module.exports = generators.Base.extend({
     this.projectDescription = props.projectDescription;
     this.projectAuthor = props.projectAuthor;
     this.projectAuthorWebsite = props.projectAuthorWebsite;
-    this.projectCodeID = props.projectCodeID;
 
       done();
     }.bind(this));
