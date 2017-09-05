@@ -99,7 +99,11 @@ module.exports = generators.Base.extend({
   },
 
   install: function () {
-    this.installDependencies();
+    this.installDependencies({
+      npm: false,
+      bower: false,
+      yarn: true
+    });
   }
 
 });
