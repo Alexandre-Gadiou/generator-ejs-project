@@ -12,22 +12,18 @@ As we already know, [bootstrap 4 alpha](http://blog.getbootstrap.com/2015/08/19/
  
 This generator enables to create a **modern** project with this packages : 
 
-1. **Bootstrap-SASS 3.3.5**
-2. **Font Awesome 4.4.0**
-3. **jQuery 3.1.1**
+1. **Bootstrap 4**
+2. **Font Awesome 4.7.0**
+3. **jQuery 3.2.1**
 
 ## Getting Started
 
 1. Install [nodejs](https://nodejs.org/)
 
 2. Install Gulp
-	
-	* 	`npm install -g gulp`
-		
-3. Install Bower
-	
-	* 	`npm install -g bower`
-		
+
+	* `npm install 'gulpjs/gulp.git#4.0' -g`
+			
 4. Install Yeoman
 
 	* 	`npm install -g yo`		
