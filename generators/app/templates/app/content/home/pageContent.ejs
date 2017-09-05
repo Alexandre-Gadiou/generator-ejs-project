@@ -1,3 +1,24 @@
-<div>
-    <i class="fa fa-bolt"></i> Home
-</div>
+<%- include('../../components/carousel/carousel', {
+    currentNode : {
+      id : "carousel1",
+      btn_previous : "Précédent",
+      btn_next : "Suivant",
+      images : [
+        {
+          url : "http://lorempixel.com/1280/800/nature/1/",
+          alt: "image 1",
+        },
+        {
+          url : "http://lorempixel.com/1280/800/nature/2/",
+          alt: "image 2",
+        },
+        {
+          url : "http://lorempixel.com/1280/800/nature/3/",
+          alt: "image 3",
+        },
+        
+      ]
+    }
+      
+    });
+%>
