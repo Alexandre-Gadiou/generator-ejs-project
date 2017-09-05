@@ -15,7 +15,7 @@ describe('generator ejs-project:app', function () {
 
   it('creates files', function () {
     assert.file([
-      'bower.json',
+      'Gulpfile.json',
       'package.json',
     ]);
   });

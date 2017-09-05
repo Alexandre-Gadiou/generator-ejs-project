@@ -54,7 +54,6 @@ module.exports = generators.Base.extend({
   writing: {
     projectFiles: function () {
       this.template('package.json','package.json');
-      this.template('bower.json','bower.json');
       this.template('Gulpfile.js','Gulpfile.js');
     },
 
