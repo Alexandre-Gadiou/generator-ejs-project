@@ -116,10 +116,8 @@ module.exports = class extends Generator {
 
 
   install() {
-    const hasYarn = commandExists('yarn');
     this.installDependencies({
-      npm: !hasYarn,
-      yarn: hasYarn,
+      npm: true,
       bower: false,      
     });
   }
