@@ -7,8 +7,6 @@
 generator-ejs-project is based on [EJS](http://ejs.co) technology.
 
 ## Presentation
-
-As we already know, [bootstrap 4 alpha](http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/) moved from LESS to SASS technology.
  
 This generator enables to create a **modern** project with this packages : 
 
