@@ -4,7 +4,7 @@
     "description": "<%= projectDescription %>",
     "private": true,
     "dependencies": {
-      "bootstrap": "4.0.0",
+      "bootstrap": "4.1.3",
       "font-awesome-sass": "4.7.0",
       "jquery": "3.2.1",
       "tether": "1.4.0"
